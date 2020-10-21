@@ -39,7 +39,7 @@ public class UI {
 			return new ChessPosition(column, row);
 		}
 		catch (RuntimeException e) {
-			throw new InputMismatchException("Erro lendo ChessPosition. Valores válidos são entre a1 até h8");
+			throw new InputMismatchException("Erro lendo ChessPosition. Valores validos sao entre a1 até h8");
 		}
 	}
 	
